@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#navbar{
+    background-color: rgb(27,29,30);
+    height: 70px;
+    width: 100%;
+    border-bottom: 2px solid #ffeb3b2e;
+}
+
+
+#navbar > div {
+    display: flex;
+    width: 90%;
+    margin: 0  auto;
+    justify-content: space-between;
+    height: inherit;
+    align-items: center;
+}
+
+
+.flex-container {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #607d8b40;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    height: 80vh;
+}
+
+
+.flex-container > section{
+    flex: 1;
+    background-color: #00000029;
+    padding: 10px;
+
+}
+
+.flex-container>section h2{
+    text-transform: uppercase;
+    font-weight: 300;
+    color: yellow;
+    padding-bottom: 5px;
+    border-bottom: 1px solid yellow;
+}
+
+ #form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+
+#form form label{
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+#form form input,#form form textarea{
+    width: 100%;
+    display: block;
+    padding: 10px ;
+    color: #fff;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid #ffeb3b24;
+    border-radius: 5px;
+}
+
+form button{
+    background-color: yellow;
+    color: #111;
+    padding: 10px  20px;
+    display: inline-block;
+    border-radius: 5px;
+    border:1px solid rgb(85,85,52);
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+form button:hover{
+    background-color: transparent;
+    border: 1px solid yellow;
+    color: yellow;
+}
+
+
+.container{
+    padding: 10px;
+    background: transparent;
+    border-bottom: 1px solid #444;
+}
+
+.container h3{
+    padding: 10px 0;
+    color: #fff;
+    font-weight: 100;
+}

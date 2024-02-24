@@ -1,0 +1,54 @@
+{
+  "courses": [
+    {
+      "id": "3ac5",
+      "title": "Java ",
+      "trainer": "Vinoth",
+      "isLoading": false,
+      "description": "I Love React js",
+      "createdAt": "2024-01-25T15:13",
+      "updatedAt": ""
+    },
+    {
+      "id": "afde",
+      "title": "React",
+      "trainer": "Shashi",
+      "isLoading": false,
+      "description": "hvdvchjvcjhvdchv sjvcjh zc jhdvc shdv dc isdvh jd scj cuvdh ch khbdsvkh",
+      "createdAt": "2024-01-11",
+      "updatedAt": ""
+    },
+    {
+      "title": "AWS",
+      "trainer": "Dixith",
+      "isLoading": false,
+      "description": "Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud, offering over 200 fully featured services from data centers globally fkvfm",
+      "updatedAt": "2024-01-22",
+      "id": "2f6e"
+    },
+    {
+      "id": "81b5",
+      "title": "Java Script",
+      "trainer": "Pooja",
+      "isLoading": false,
+      "description": " i Know Java Script",
+      "createdAt": "2024-01-16"
+    },
+    {
+      "title": "Nisha",
+      "trainer": "React ja",
+      "isLoading": false,
+      "description": "rjrvriri",
+      "updatedAt": "2024-01-13",
+      "id": "c3d5"
+    },
+    {
+      "id": "ae4e",
+      "title": "SQL",
+      "trainer": "Bharath",
+      "isLoading": false,
+      "description": "sql",
+      "createdAt": "2024-01-03"
+    }
+  ]
+}

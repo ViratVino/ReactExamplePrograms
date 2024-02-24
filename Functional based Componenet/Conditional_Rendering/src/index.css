@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    background-color: rgba(11,7,7);
+    height: 70px;
+    width: 100%;
+}
+
+#navbar .container ,#productsBlock .container{
+    width: 90%;
+    margin:0 auto;
+    display: flex;
+    align-items: centre;
+    height: inherit;
+    justify-content: space-between;
+    /* justify-content: center; */
+}
+
+
+.menuBlock ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container ul a{
+    color: yellow;
+    text-decoration: none;
+    padding: 10px 20px;
+   
+    
+}
+
+.logoBlock{
+    color: white;
+}
+
+sup{
+    background-color: green;
+    color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    /* padding:20px; */
+    color: white;
+    display: inline-block;
+    text-align: center;
+
+
+  
+  }
